@@ -3,27 +3,56 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		110FF1F925FCCAAD003027C0 /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110FF1F825FCCAAD003027C0 /* ApiClient.swift */; };
+		110FF1FE25FCCB1A003027C0 /* StudentInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110FF1FD25FCCB1A003027C0 /* StudentInformation.swift */; };
+		110FF20325FCD6E7003027C0 /* SessionRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110FF20225FCD6E6003027C0 /* SessionRequest.swift */; };
+		110FF20825FCD745003027C0 /* SessionResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110FF20725FCD745003027C0 /* SessionResponse.swift */; };
+		110FF20E25FCF0AD003027C0 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110FF20D25FCF0AD003027C0 /* Constants.swift */; };
+		110FF21225FD0138003027C0 /* StudentInformationResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110FF21125FD0138003027C0 /* StudentInformationResponse.swift */; };
 		11140A9225EB01E100E74301 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11140A9125EB01E100E74301 /* AppDelegate.swift */; };
 		11140A9425EB01E100E74301 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11140A9325EB01E100E74301 /* SceneDelegate.swift */; };
-		11140A9625EB01E100E74301 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11140A9525EB01E100E74301 /* ViewController.swift */; };
+		11140A9625EB01E100E74301 /* OnTheMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11140A9525EB01E100E74301 /* OnTheMapViewController.swift */; };
 		11140A9925EB01E100E74301 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11140A9725EB01E100E74301 /* Main.storyboard */; };
 		11140A9B25EB01E700E74301 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11140A9A25EB01E700E74301 /* Assets.xcassets */; };
 		11140A9E25EB01E700E74301 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11140A9C25EB01E700E74301 /* LaunchScreen.storyboard */; };
+		1120A63C25F8DBB100F4D642 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1120A63B25F8DBB100F4D642 /* LoginViewController.swift */; };
+		113861702604293100311837 /* String + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1138616F2604293100311837 /* String + Extension.swift */; };
+		114DB47625FD49AD0051E418 /* OnTheMapListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114DB47525FD49AD0051E418 /* OnTheMapListViewController.swift */; };
+		114DB47925FD70AC0051E418 /* AddLocationResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114DB47825FD70AC0051E418 /* AddLocationResponse.swift */; };
+		114DB47C25FD71050051E418 /* AddLocationRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114DB47B25FD71050051E418 /* AddLocationRequest.swift */; };
+		114DB47F25FD77820051E418 /* NewLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114DB47E25FD77820051E418 /* NewLocationViewController.swift */; };
+		114DB48325FD7C130051E418 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114DB48225FD7C130051E418 /* UIViewController+Extension.swift */; };
+		11AB24362600177400ACA81F /* ConfirmNewLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AB24352600177400ACA81F /* ConfirmNewLocationViewController.swift */; };
+		11DAD6AE26069628005706C1 /* FacebookLogin in Frameworks */ = {isa = PBXBuildFile; productRef = 11DAD6AD26069628005706C1 /* FacebookLogin */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		110FF1F825FCCAAD003027C0 /* ApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
+		110FF1FD25FCCB1A003027C0 /* StudentInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentInformation.swift; sourceTree = "<group>"; };
+		110FF20225FCD6E6003027C0 /* SessionRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionRequest.swift; sourceTree = "<group>"; };
+		110FF20725FCD745003027C0 /* SessionResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionResponse.swift; sourceTree = "<group>"; };
+		110FF20D25FCF0AD003027C0 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		110FF21125FD0138003027C0 /* StudentInformationResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentInformationResponse.swift; sourceTree = "<group>"; };
 		11140A8E25EB01E100E74301 /* OnTheMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnTheMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11140A9125EB01E100E74301 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		11140A9325EB01E100E74301 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		11140A9525EB01E100E74301 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		11140A9525EB01E100E74301 /* OnTheMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnTheMapViewController.swift; sourceTree = "<group>"; };
 		11140A9825EB01E100E74301 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		11140A9A25EB01E700E74301 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		11140A9D25EB01E700E74301 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		11140A9F25EB01E700E74301 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1120A63B25F8DBB100F4D642 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		1138616F2604293100311837 /* String + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String + Extension.swift"; sourceTree = "<group>"; };
+		114DB47525FD49AD0051E418 /* OnTheMapListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnTheMapListViewController.swift; sourceTree = "<group>"; };
+		114DB47825FD70AC0051E418 /* AddLocationResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddLocationResponse.swift; sourceTree = "<group>"; };
+		114DB47B25FD71050051E418 /* AddLocationRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddLocationRequest.swift; sourceTree = "<group>"; };
+		114DB47E25FD77820051E418 /* NewLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewLocationViewController.swift; sourceTree = "<group>"; };
+		114DB48225FD7C130051E418 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		11AB24352600177400ACA81F /* ConfirmNewLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmNewLocationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,12 +60,58 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11DAD6AE26069628005706C1 /* FacebookLogin in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		110FF1F725FCCA4F003027C0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				110FF20625FCD730003027C0 /* ApiResponse */,
+				110FF20125FCD6B5003027C0 /* ApiRequest */,
+				110FF1FC25FCCB04003027C0 /* Data */,
+				110FF1F825FCCAAD003027C0 /* ApiClient.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		110FF1FC25FCCB04003027C0 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				110FF1FD25FCCB1A003027C0 /* StudentInformation.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		110FF20125FCD6B5003027C0 /* ApiRequest */ = {
+			isa = PBXGroup;
+			children = (
+				110FF20225FCD6E6003027C0 /* SessionRequest.swift */,
+				114DB47B25FD71050051E418 /* AddLocationRequest.swift */,
+			);
+			path = ApiRequest;
+			sourceTree = "<group>";
+		};
+		110FF20625FCD730003027C0 /* ApiResponse */ = {
+			isa = PBXGroup;
+			children = (
+				110FF20725FCD745003027C0 /* SessionResponse.swift */,
+				110FF21125FD0138003027C0 /* StudentInformationResponse.swift */,
+				114DB47825FD70AC0051E418 /* AddLocationResponse.swift */,
+			);
+			path = ApiResponse;
+			sourceTree = "<group>";
+		};
+		110FF20B25FCF08D003027C0 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 		11140A8525EB01E000E74301 = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +131,48 @@
 		11140A9025EB01E100E74301 /* OnTheMap */ = {
 			isa = PBXGroup;
 			children = (
-				11140A9125EB01E100E74301 /* AppDelegate.swift */,
-				11140A9325EB01E100E74301 /* SceneDelegate.swift */,
-				11140A9525EB01E100E74301 /* ViewController.swift */,
-				11140A9725EB01E100E74301 /* Main.storyboard */,
+				110FF20B25FCF08D003027C0 /* New Group */,
+				110FF1F725FCCA4F003027C0 /* Model */,
+				1120A63925F8D9A100F4D642 /* Delegates */,
+				1120A63825F8D97600F4D642 /* ViewControllers */,
+				1120A63725F8D94600F4D642 /* Storyboards */,
 				11140A9A25EB01E700E74301 /* Assets.xcassets */,
-				11140A9C25EB01E700E74301 /* LaunchScreen.storyboard */,
 				11140A9F25EB01E700E74301 /* Info.plist */,
+				110FF20D25FCF0AD003027C0 /* Constants.swift */,
 			);
 			path = OnTheMap;
+			sourceTree = "<group>";
+		};
+		1120A63725F8D94600F4D642 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				11140A9725EB01E100E74301 /* Main.storyboard */,
+				11140A9C25EB01E700E74301 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		1120A63825F8D97600F4D642 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				11140A9525EB01E100E74301 /* OnTheMapViewController.swift */,
+				1120A63B25F8DBB100F4D642 /* LoginViewController.swift */,
+				114DB47525FD49AD0051E418 /* OnTheMapListViewController.swift */,
+				114DB47E25FD77820051E418 /* NewLocationViewController.swift */,
+				114DB48225FD7C130051E418 /* UIViewController+Extension.swift */,
+				11AB24352600177400ACA81F /* ConfirmNewLocationViewController.swift */,
+				1138616F2604293100311837 /* String + Extension.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		1120A63925F8D9A100F4D642 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				11140A9125EB01E100E74301 /* AppDelegate.swift */,
+				11140A9325EB01E100E74301 /* SceneDelegate.swift */,
+			);
+			path = Delegates;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +191,9 @@
 			dependencies = (
 			);
 			name = OnTheMap;
+			packageProductDependencies = (
+				11DAD6AD26069628005706C1 /* FacebookLogin */,
+			);
 			productName = OnTheMap;
 			productReference = 11140A8E25EB01E100E74301 /* OnTheMap.app */;
 			productType = "com.apple.product-type.application";
@@ -110,6 +221,9 @@
 				Base,
 			);
 			mainGroup = 11140A8525EB01E000E74301;
+			packageReferences = (
+				11DAD6AC26069628005706C1 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */,
+			);
 			productRefGroup = 11140A8F25EB01E100E74301 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,9 +251,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11140A9625EB01E100E74301 /* ViewController.swift in Sources */,
+				110FF1FE25FCCB1A003027C0 /* StudentInformation.swift in Sources */,
+				11AB24362600177400ACA81F /* ConfirmNewLocationViewController.swift in Sources */,
+				114DB47C25FD71050051E418 /* AddLocationRequest.swift in Sources */,
+				114DB47F25FD77820051E418 /* NewLocationViewController.swift in Sources */,
+				114DB48325FD7C130051E418 /* UIViewController+Extension.swift in Sources */,
+				110FF20325FCD6E7003027C0 /* SessionRequest.swift in Sources */,
+				1120A63C25F8DBB100F4D642 /* LoginViewController.swift in Sources */,
+				110FF20825FCD745003027C0 /* SessionResponse.swift in Sources */,
+				11140A9625EB01E100E74301 /* OnTheMapViewController.swift in Sources */,
+				114DB47925FD70AC0051E418 /* AddLocationResponse.swift in Sources */,
+				110FF21225FD0138003027C0 /* StudentInformationResponse.swift in Sources */,
 				11140A9225EB01E100E74301 /* AppDelegate.swift in Sources */,
 				11140A9425EB01E100E74301 /* SceneDelegate.swift in Sources */,
+				113861702604293100311837 /* String + Extension.swift in Sources */,
+				110FF1F925FCCAAD003027C0 /* ApiClient.swift in Sources */,
+				110FF20E25FCF0AD003027C0 /* Constants.swift in Sources */,
+				114DB47625FD49AD0051E418 /* OnTheMapListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +469,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		11DAD6AC26069628005706C1 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "git@github.com:facebook/facebook-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.10.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		11DAD6AD26069628005706C1 /* FacebookLogin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 11DAD6AC26069628005706C1 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookLogin;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 11140A8625EB01E000E74301 /* Project object */;
 }
